@@ -1,4 +1,4 @@
-package zapr
+package github.com/verdude/zapr
 
 import (
   "go.uber.org/zap"
@@ -26,7 +26,7 @@ func (b bervose) Enabled() bool {
   return b.enabled
 }
 
-func (b bervose) I(m string, args ...zapcore.Field) { 
+func (b bervose) I(m string, args ...zapcore.Field) {
   if b.enabled {
     logging.logger.Info(m, args...)
   }
