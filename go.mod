@@ -1,4 +1,4 @@
-module zapr
+module github.com/verdude/zapr
 
 go 1.19
 
