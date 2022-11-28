@@ -89,7 +89,7 @@ func Sync() {
   logging.logger.Sync()
 }
 
-func Init() {
+func Init(level uint8) {
   if logging.logger != nil {
     return
   }
@@ -100,6 +100,7 @@ func Init() {
   }
 
   logging.logger = l
+  logging.vLevel = level
 }
 
 func V(level uint8) *bervose {

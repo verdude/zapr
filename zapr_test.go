@@ -1,9 +1,9 @@
-package test
+package zapr
 
 import "testing"
 
 func TestTopLevelLogs(t *testing.T) {
-  Init()
+  Init(1)
   D("Debug")
   I("Info")
   W("Warn")
