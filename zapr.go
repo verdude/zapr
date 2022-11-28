@@ -1,4 +1,4 @@
-package github.com/verdude/zapr
+package zapr
 
 import (
   "go.uber.org/zap"
