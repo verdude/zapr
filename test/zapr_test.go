@@ -1,4 +1,4 @@
-package zapr
+package test
 
 import "testing"
 
