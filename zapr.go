@@ -90,7 +90,7 @@ func Sync() {
 }
 
 func Init() {
-  if logging.logger == nil {
+  if logging.logger != nil {
     return
   }
 
